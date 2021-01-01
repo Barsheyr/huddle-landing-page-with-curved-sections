@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*overflow-x: hidden;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/*-----HEADER SECTION-----*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.botnhead {
+    border-radius: 50px;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 10px 15px;
+}
+
+.headcon {
+    padding: 15% 5%;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: hsl(192, 100%, 9%);
+}
+
+.headpara {
+    text-align: center;
+    padding: 10px 25%;
+    line-height: 25px;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 20px;
+    margin-left: 37%;
+    border: 1px solid hsl(322, 100%, 66%);
+    padding: 15px 8%;
+    margin-top: 20px;
+    margin-bottom: 7%;
+    font-size: 15px;
+}
+
+.mockups {
+    width: 80%;
+    margin-left: 120px;
+}
+
+.twoicons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.num {
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.curves-top {
+    width: 100%;
+}
+
+.curves-top img {
+    width: 100%;
+}
+
+.curves-bottom img {
+    width: 100%;
+}
+
+.mob-bg {
+    display: none;
+}
+
+.first {
+    display: flex;
+    background-color: hsl(207, 100%, 98%);
+    align-items: center;
+    padding: 2px 10%;
+    margin-top: -5px;
+}
+
+.third {
+    display: flex;
+    background-color: hsl(207, 100%, 98%);
+    align-items: center;
+    padding: 2px 10%;
+    margin-top: -5px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: hsl(192, 100%, 9%);
+}
+
+.threepara {
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    padding: 2px 10%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.growpic,
+.userpic {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.flowpic {
+    width: 80%;
+}
+
+.smallbox {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.butfut {
+    display: inline-block;
+    padding: 15px 8%;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 70px;
+    margin-left: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.curv-fut {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.curv-fut img {
+    width: 100%;
+}
+
+.fut-mob {
+    display: none;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    /*margin-top: -5px;*/
+    color: white;
+}
+
+.fut {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fut-sec {
+    margin-left: 30%;
+}
+
+.logowhite {
+    margin-bottom: 20px;
+}
+
+.parafut,
+.parafutwo {
+    margin-bottom: 20px;
+    margin-right: 30%;
+    line-height: 1.5em;
+}
+
+.paraphone {
+    margin-bottom: 20px;
+}
+
+.phem {
+    margin-right: 20px;
+}
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ion-icon {
+    margin-top: 50px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+input {
+    padding: 10px 30px;
+    margin-right: 15px;
+}
+
+.subut {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px 35px;
+    border-radius: 2px;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        text-align: center;
+        margin: 0;
+    }
+    .logo {
+        height: 20px;
+    }
+    .botnhead {
+        padding: 3px 30px;
+        margin-top: -5px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-top: 20%;
+    }
+    .headpara {
+        padding: 25px 15px;
+        line-height: 30px;
+    }
+    button {
+        margin-left: 5%;
+        padding: 15px 40px;
+        margin-top: 35px;
+    }
+    .mockups {
+        margin-left: 20px;
+        margin-top: 15%;
+        width: 90%;
+    }
+    .twoicons {
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .iconpic {
+        margin-right: 200px;
+        width: 10%;
+    }
+    .smal {
+        margin-bottom: 20%;
+    }
+    .first {
+        flex-direction: column-reverse;
+    }
+    .second {
+        flex-direction: column;
+    }
+    .third {
+        flex-direction: column-reverse;
+    }
+    .fut-desk {
+        display: none;
+    }
+    .fut-mob {
+        display: block;
+        width: 100%;
+    }
+    h2 {
+        margin-top: 50px;
+    }
+    .threepara {
+        line-height: 1.5em;
+        margin-top: 30px;
+    }
+    .fut {
+        flex-direction: column-reverse;
+    }
+    .fut-sec {
+        align-content: center;
+    }
+    h4 {
+        margin-left: -120%;
+        padding: 0;
+    }
+    .parafutwo {
+        margin-left: -35%;
+        padding: 0;
+        text-align: left;
+    }
+    input {
+        margin-left: -50%;
+        padding: 10px 90px;
+        margin-bottom: 20px;
+    }
+    .subut {
+        padding: 10px 50px;
+    }
+    .logowhite {
+        margin-top: 20%;
+        margin-left: -33%;
+    }
+    .parafut {
+        margin-left: 5%;
+        text-align: left;
+        padding: 0;
+    }
+    .phem {
+        margin-left: -50%;
+        margin-top: 10px;
+    }
+    ul {
+        margin-left: -55%;
+        margin-bottom: 50px;
+    }
+}
